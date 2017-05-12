@@ -44,11 +44,14 @@
 
     .img-wrapper .info .title {
       transition: height 0.5s;
-      padding: 5px;
+      padding: 0 10px;
       background: rgba(0, 0, 0, 0.5);
       color: white;
-      line-height: 30px;
+      line-height: 40px;
       text-align: center;
+	  white-space: nowrap;
+      text-overflow: ellipsis;
+	  overflow: hidden;
       position: absolute;
       bottom: 0;
       left: 0;
@@ -61,7 +64,7 @@
     }
 
     .img-wrapper:hover .title {
-      height: 30px;
+      height: 40px;
     }
   </style>
 </head>
@@ -71,7 +74,7 @@
     <div class="img-wrapper">
       <img src="imgs/1.jpg" alt="">
       <div class="info">
-        <div class="title">我们的爱</div>
+        <div class="title">我们的爱我们的爱我们的爱我们的爱我们的爱我们的爱我们的爱我们的爱</div>
       </div>
     </div>
     <div class="img-wrapper">
